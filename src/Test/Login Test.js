@@ -60,9 +60,7 @@ function LoginTest() {
           <button onClick={loginWithRedirect}>loginWithRedirect</button>
         </li>
         <li>
-          {isAuthenticated ? (
-            <Router_Link to={"/payments"}>Pay Fees</Router_Link>
-          ) : null}
+          <Router_Link to={"/payments"}>Pay Fees</Router_Link>
         </li>
 
         <br></br>

@@ -23,8 +23,8 @@ const Pay = () => {
   var payment = {
     sandbox: true,
     merchant_id: "1218791", // Replace your Merchant ID
-    returnUrl: "http://localhost:3000/thankyou",
-    cancelUrl: "http://localhost:3000/payments",
+    returnUrl: "https://zoomhost.herokuapp.com/thankyou",
+    cancelUrl: "https://zoomhost.herokuapp.com/payments",
     notifyUrl: "http://localhost:5000/notify",
     order_id: "0123456",
     itemTitle: "Demo Item",
